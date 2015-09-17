@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2010 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical"
+    >
+    
+  <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        >	         
+	  <alben.sgs.android.imageview.SelectWuJiangImageView
+		 android:id="@+id/wjd_selected_WuJiang"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/wj_zhangfei"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>  
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp1"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp2"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp3"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+  </LinearLayout>		
+  
+  <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        >	         
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp4"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 
+		/> 
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp5"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp6"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp7"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+  </LinearLayout>	  
+  
+  <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        >	         
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp8"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/> 
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp9"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp10"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+		
+		<alben.sgs.android.imageview.CardPaiImageView
+		 android:id="@+id/wjd_cp11"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:src="@drawable/card_back"
+		 android:background="@drawable/bg_black"  
+     android:padding="1dp"		 		 
+		/>		
+  </LinearLayout>	   
+  
+    
+  <TextView
+		     android:id="@+id/wjd_info"
+		     android:text="Test"
+		     android:textSize="12sp"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+	/> 
+    
+  <Button
+    android:id="@+id/wjd_okBtn"
+    android:text="OK"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  />
+		             
+</LinearLayout>

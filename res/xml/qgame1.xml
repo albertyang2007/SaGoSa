@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QGame>
+    <Title>xu chu 1 dao 17 xue</Title>
+    <Description>A Q Game Description</Description>
+    <SystemSetting round="1" />
+    <paiDuiTopCPs>
+        <paiDuiTopCP name="HuoSha" huashi="HongTao" number="4" />
+        <paiDuiTopCP name="HuoSha" huashi="HongTao" number="7" />
+        <paiDuiTopCP name="HuoSha" huashi="HongTao" number="10" />
+        <paiDuiTopCP name="Sha" huashi="HongTao" number="11" />
+        <paiDuiTopCP name="HuoSha" huashi="FangPian" number="4" />
+        <paiDuiTopCP name="HuoSha" huashi="FangPian" number="5" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="13" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="10" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="6" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="7" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="8" />
+        <paiDuiTopCP name="Sha" huashi="FangPian" number="9" />
+        <paiDuiTopCP name="Sha" huashi="MeiHua" number="2" />
+        <paiDuiTopCP name="Sha" huashi="MeiHua" number="3" />
+        <paiDuiTopCP name="Sha" huashi="MeiHua" number="4" />
+    </paiDuiTopCPs>
+    <WuJiangs>
+        <WuJiang name="XuZhu" imageViewIndex="7" state="nil" role="ZhuGong" blood="4" lianHuan="false">
+            <zhuangBei>
+                <wuQi name="FangTianHuaJi" huashi="FangPian" number="12" />
+            </zhuangBei>
+            <shouPais>
+                <shouPai name="Jiu" huashi="MeiHua" number="9" />
+            </shouPais>
+            <panDingPais />
+        </WuJiang>
+        <WuJiang name="DaQiao" imageViewIndex="6" state="nil" role="ZhongChen" blood="3" lianHuan="false">
+            <zhuangBei>
+                <wuQi name="ChiXiongShuanPeiJian" huashi="HeiTao" number="2" />
+            </zhuangBei>
+            <shouPais>
+                <shouPai name="Sha" huashi="FangPian" number="13" />
+            </shouPais>
+            <panDingPais />
+        </WuJiang>
+        <WuJiang name="XiaoQiao" imageViewIndex="4" state="nil" role="ZhongChen" blood="3" lianHuan="true">
+            <zhuangBei>
+                <fangJu name="TengJia" huashi="MeiHua" number="2" />
+            </zhuangBei>
+            <shouPais>
+                <shouPai name="Sha" huashi="HeiTao" number="7" />
+                <shouPai name="Sha" huashi="HeiTao" number="8" />
+            </shouPais>
+            <panDingPais />
+        </WuJiang>
+        <WuJiang name="WeiYuan" imageViewIndex="3" state="nil" role="FanZei" blood="4" lianHuan="true">
+            <zhuangBei>
+                <fangJu name="TengJia" huashi="HeiTao" number="2" />
+            </zhuangBei>
+            <shouPais>
+                <shouPai name="Tao" huashi="FangPian" number="2" />
+                <shouPai name="Tao" huashi="FangPian" number="3" />
+                <shouPai name="Tao" huashi="FangPian" number="12" />
+                <shouPai name="Tao" huashi="HongTao" number="3" />
+                <shouPai name="Tao" huashi="HongTao" number="5" />
+                <shouPai name="Tao" huashi="HongTao" number="6" />
+                <shouPai name="Tao" huashi="HongTao" number="6" />
+                <shouPai name="Tao" huashi="HongTao" number="7" />
+                <shouPai name="Tao" huashi="HongTao" number="8" />
+                <shouPai name="Tao" huashi="HongTao" number="9" />
+                <shouPai name="Tao" huashi="HongTao" number="12" />
+                <shouPai name="Tao" huashi="HongTao" number="4" />
+                <shouPai name="Jiu" huashi="HeiTao" number="3" />
+                <shouPai name="Jiu" huashi="HeiTao" number="9" />
+                <shouPai name="Jiu" huashi="MeiHua" number="3" />
+            </shouPais>
+            <panDingPais />
+        </WuJiang>
+    </WuJiangs>
+</QGame>
