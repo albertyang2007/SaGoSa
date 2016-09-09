@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/qgame_pd_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pan Ding Area" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/qgame_pd1" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd2" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd3" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+    </LinearLayout>
+    <TextView android:id="@+id/qgame_pd_cp_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bottom" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/qgame_pd_cp1" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp2" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp3" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp4" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/qgame_pd_cp5" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp6" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp7" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+        <ImageView android:id="@+id/qgame_pd_cp8" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/card_back" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@+id/qgame_pd_addBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK" />
+        <Button android:id="@+id/qgame_pd_delBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Del" />
+        <Button android:id="@+id/qgame_pd_okBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK" />
+    </LinearLayout>
+</LinearLayout>

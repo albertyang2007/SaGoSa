@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:gravity="center_vertical">
+
+	 <TextView
+		   android:id="@+id/nonblock_info"
+		   android:text=""
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+	 />
+
+   <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+
+		   <alben.sgs.android.mycontroller.MyImageButton
+		        android:id="@+id/nonblock_yes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_bg1"
+		        android:padding="12dp"
+		   />
+
+		   <alben.sgs.android.mycontroller.MyImageButton
+		        android:id="@+id/nonblock_no"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_bg1"
+		        android:padding="12dp"
+		   />
+	 </LinearLayout>
+
+</LinearLayout>

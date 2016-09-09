@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/qgame_blood_1" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_1" />
+        <ImageView android:id="@+id/qgame_blood_2" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_2" />
+        <ImageView android:id="@+id/qgame_blood_3" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_3" />
+        <ImageView android:id="@+id/qgame_blood_4" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_4" />
+        <ImageView android:id="@+id/qgame_blood_5" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_5" />
+        <ImageView android:id="@+id/qgame_blood_6" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_6" />
+        <ImageView android:id="@+id/qgame_blood_7" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_7" />
+        <ImageView android:id="@+id/qgame_blood_8" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_8" />
+        <ImageView android:id="@+id/qgame_blood_9" android:background="@drawable/bg_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/number_9" />
+    </LinearLayout>
+    <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn1" android:background="@drawable/btn_bg1" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn2" android:background="@drawable/btn_bg_long" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@+id/settings_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_long_ok" />
+        <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn3" android:background="@drawable/btn_bg_long" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/qgame_role_zhugong_r" android:background="@drawable/qgame_role_zhugong" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/qgame_role_zhongchen_r" android:background="@drawable/qgame_role_zhongchen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/qgame_role_neijian_r" android:background="@drawable/qgame_role_neijian" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/qgame_role_fanzei_r" android:background="@drawable/qgame_role_fanzei" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/qgame_role_zhugong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qgame_role_zhugong" />
+        <ImageView android:id="@+id/qgame_role_zhongchen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qgame_role_zhongchen" />
+        <ImageView android:id="@+id/qgame_role_neijian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qgame_role_neijian" />
+        <ImageView android:id="@+id/qgame_role_fanzei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qgame_role_fanzei" />
+    </LinearLayout>
+    <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn1" android:background="@drawable/btn_bg1" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn2" android:background="@drawable/btn_bg_long" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@+id/settings_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_long_ok" />
+        <alben.sgs.android.mycontroller.MyImageButton android:id="@+id/invisible_btn3" android:background="@drawable/btn_bg_long" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

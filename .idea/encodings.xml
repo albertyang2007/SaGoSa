@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/alben/sgs/cardpai/instance/ZhiXin.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/alben/sgs/wujiang/instance/XiaHouTing.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/alben/sgs/wujiang/instance/XunYu.java" charset="GB2312" />
+    <file url="PROJECT" charset="GB2312" />
   </component>
 </project>

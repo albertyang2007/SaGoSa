@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2010 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">三国过关</string>
+    <string name="startGame">开始游戏</string>
+    <string name="settings">游戏设置</string>
+    <string name="debugInfo">调试信息</string>    
+    <string name="ChuPai">出牌</string>
+    <string name="FangQi">放弃</string>
+    <string name="QiPai">弃牌</string>
+    <string name="HuiHeJieSu">完成</string>
+    <string name="Pause">暂停</string>
+    <string name="Return">返回</string>
+    <string name="StartMatch">开局</string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="TuoGuan">托管</string>
+   
+    <!--only for debug-->	 
+	  <string name="tao">桃"</string>
+	  <string name="jiu">酒"</string>
+	  <string name="heisha">黑杀"</string>
+	  <string name="hongsha">红杀"</string>
+	  <string name="leisha">雷杀"</string>
+	  <string name="huosha">火杀"</string>
+	  <string name="huogong">火攻"</string>
+	  <string name="shan">闪"</string>
+	  <string name="ghcq">过河"</string>
+	  <string name="blcd">兵粮"</string>
+	  <string name="jdsr">借刀"</string>
+	  <string name="lbss">乐不"</string>
+	  <string name="nnrq">南蛮"</string>
+	  <string name="ssxy">顺手"</string>
+	  <string name="juedou">决斗"</string>
+	  <string name="shandian">闪电"</string>
+	  <string name="chitu">赤兔"</string>
+	  <string name="dilu">的卢"</string>
+	  <string name="tyjy">桃园"</string>
+	  <string name="tslh">铁索"</string>
+	  <string name="wjqf">万箭"</string>
+	  <string name="wxkj">无懈"</string>
+	  <string name="wzsy">无中"</string>
+	  <string name="wgfd">五谷"</string>
+	  <string name="bgz">八卦"</string>
+	  <string name="bysz">白银"</string>
+	  <string name="rwd">仁王"</string>
+	  <string name="tengjia">藤甲"</string>
+	  <string name="cxspj">雌雄"</string>
+	  <string name="fthj">方天"</string>
+	  <string name="gdd">古锭"</string>
+	  <string name="gsf">贯石"</string>
+	  <string name="bhj">寒冰"</string>
+	  <string name="qlg">麒麟"</string>
+	  <string name="qhj">青釭"</string>
+	  <string name="qlyyd">青龙"</string>
+	  <string name="zbsm">丈八"</string>
+	  <string name="zqsy">朱雀"</string>
+	  <string name="zgln">诸葛"</string>
+	  <string name="qxd">七星"</string>
+     
+</resources>

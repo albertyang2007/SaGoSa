@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:gravity="center_vertical">
+    
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+      <ImageView
+	      android:id="@+id/gameType_1v1"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_1v1"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_3_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_3_people"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_4_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_4_people"
+	    />
+
+   </LinearLayout>  
+   
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+      <ImageView
+	      android:id="@+id/gameType_5_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_5_people"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_6_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_6_people"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_7_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_7_people"
+	    />
+
+   </LinearLayout>   
+   
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+      <ImageView
+	      android:id="@+id/gameType_81_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_81_people"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_82_people"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_82_people"
+	    />
+
+      <ImageView
+	      android:id="@+id/gameType_3v3"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/btn_3v3"
+	    />
+
+   </LinearLayout>   
+   
+   <alben.sgs.android.mycontroller.MyImageButton
+	      android:id="@+id/invisible_btn1"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/btn_bg1"
+	      android:padding="12dp"
+	 />   
+   
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+      <alben.sgs.android.mycontroller.MyImageButton
+	      android:id="@+id/invisible_btn2"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/btn_bg_long"
+	      android:padding="12dp"
+	    />
+
+		  <ImageView 
+		    android:id="@id/settings_ok" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:src="@drawable/btn_long_ok" 
+		   /> 
+
+      <alben.sgs.android.mycontroller.MyImageButton
+	      android:id="@+id/invisible_btn3"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/btn_bg_long"
+	      android:padding="12dp"
+	    />
+
+   </LinearLayout>     
+       
+</LinearLayout>
