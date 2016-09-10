@@ -175,7 +175,7 @@ public class LibGameViewData {
 
 	//
 	public boolean logLoop = false;
-	public int delayMillSeconds = 1000;
+	public int delayMillSeconds = 800;
 
 	public void logInfo(String s, Type.logDelay delay) {
 
@@ -187,6 +187,7 @@ public class LibGameViewData {
 
 		this.appendLog(s.trim() + "\n");
 		this.mInfoView.setText(this.getLatestLogs());
+		this.mInfoView.setTextSize(24);
 
 		if (delay == Type.logDelay.NoDelay)
 			return;

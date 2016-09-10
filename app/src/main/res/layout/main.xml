@@ -1403,7 +1403,7 @@
               
               <TextView 
                  android:id="@+id/center_info" 
-                 android:textSize="12.0sp" 
+                 android:textSize="24.0sp"
                  android:text=" "                 
                  android:layout_marginLeft="4.0dip" 
                  android:layout_marginTop="2.0dip" 

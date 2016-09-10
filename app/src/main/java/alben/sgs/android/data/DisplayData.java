@@ -3,8 +3,8 @@ package alben.sgs.android.data;
 import android.util.DisplayMetrics;
 
 public class DisplayData {
-	public int screenWidth = 240;// ÆÁÄ»¿í¶È£¨ÏñËØ£© 240
-	public int screenHeight = 320;// ÆÁÄ»¸ß¶È£¨ÏñËØ£© 320
+	public int screenWidth = 960;// ÆÁÄ»¿í¶È£¨ÏñËØ£© 240
+	public int screenHeight = 1280;// ÆÁÄ»¸ß¶È£¨ÏñËØ£© 320
 	public float density = 0.75f; // ÆÁÄ»ÃÜ¶È£¨0.75 / 1.0 / 1.5£© 0.75
 	public int densityDpi = 120; // ÆÁÄ»ÃÜ¶ÈDPI£¨120 / 160 / 240£©120
 
